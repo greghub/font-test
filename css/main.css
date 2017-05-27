@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Mardoto_flab-Black';
+    src: url('../fonts/Mardoto_flab-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mardoto_flab-Black.woff') format('woff'),
+        url('../fonts/Mardoto_flab-Black.ttf')  format('truetype'),
+        url('../fonts/Mardoto_flab-Black.svg#Mardoto_flab-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Mardoto_flab-Black", sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.size,
+.glyphs {
+    padding: 12px;
+}
+
+.size {
+    min-width: 72px;
+}
+
+.size-10 {
+    font-size: 10px;
+}
+
+.size-11 {
+    font-size: 11px;
+}
+
+.size-12 {
+    font-size: 12px;
+}
+
+.size-13 {
+    font-size: 13px;
+}
+
+.size-14 {
+    font-size: 14px;
+}
+
+.size-16 {
+    font-size: 16px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.size-24 {
+    font-size: 24px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-36 {
+    font-size: 36px;
+}
