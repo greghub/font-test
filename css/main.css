@@ -28,6 +28,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Mardoto_regular';
+    src: url('../fonts/Mardoto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mardoto-Regular.woff') format('woff'),
+    url('../fonts/Mardoto-Regular.ttf')  format('truetype'),
+    url('../fonts/Mardoto-Regular.svg#Mardoto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
@@ -38,6 +49,10 @@ body {
 
 .col-glyphs {
     font-family: "Mardoto_glyphs-Black", sans-serif;
+}
+
+.col-glyphs-regular {
+    font-family: "Mardoto_regular", sans-serif;
 }
 
 .col-fontlab {
