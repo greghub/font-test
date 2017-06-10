@@ -1,43 +1,9 @@
 @font-face {
-    font-family: 'Mardoto_flab-Black';
-    src: url('../fonts/Mardoto_flab-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Mardoto_flab-Black.woff') format('woff'),
-        url('../fonts/Mardoto_flab-Black.ttf')  format('truetype'),
-        url('../fonts/Mardoto_flab-Black.svg#Mardoto_flab-Black') format('svg');
+    font-family: 'Mardoto-Regular';
+    src: url('../fonts/Mardoto-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Mardoto-Regular.woff') format('woff'), url('../fonts/Mardoto-Regular.ttf')  format('truetype'), url('../fonts/Mardoto-Regular.svg#Mardoto-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Mardoto_flab2-Black';
-    src: url('../fonts/Mardoto_flab2-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Mardoto_flab2-Black.woff') format('woff'),
-    url('../fonts/Mardoto_flab2-Black.ttf')  format('truetype'),
-    url('../fonts/Mardoto_flab2-Black.svg#Mardoto_flab2-Black') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mardoto_glyphs-Black';
-    src: url('../fonts/Mardoto_glyphs-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Mardoto_glyphs-Black.woff') format('woff'),
-    url('../fonts/Mardoto_glyphs-Black.ttf')  format('truetype'),
-    url('../fonts/Mardoto_glyphs-Black.svg#Mardoto_glyphs-Black') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mardoto_regular';
-    src: url('../fonts/Mardoto-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Mardoto-Regular.woff') format('woff'),
-    url('../fonts/Mardoto-Regular.ttf')  format('truetype'),
-    url('../fonts/Mardoto-Regular.svg#Mardoto-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 body {
     margin: 0;
@@ -48,15 +14,15 @@ body {
 }
 
 .col-glyphs {
-    font-family: "Mardoto_glyphs-Black", sans-serif;
+    font-family: "Mardoto-Regular", sans-serif;
 }
 
 .col-glyphs-regular {
-    font-family: "Mardoto_regular", sans-serif;
+    font-family: "Mardoto-Regular", sans-serif;
 }
 
 .col-fontlab {
-    font-family: "Mardoto_flab2-Black", sans-serif;
+    font-family: "Mardoto-Regular", sans-serif;
 }
 
 .container {
