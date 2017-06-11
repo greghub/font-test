@@ -11,7 +11,23 @@
     <body>
         <div class="container">
             <div class="column col-glyphs-regular">
-                <h1>Glyphs</h1>
+                <h1>
+                    Glyphs 
+                    <select id="type">
+                        <option value="Black">Black</option>
+                        <option value="BlackItalic">BlackItalic</option>
+                        <option value="Bold">Bold</option>
+                        <option value="BoldItalic">BoldItalic</option>
+                        <option value="Italic">Italic</option>
+                        <option value="Light">Light</option>
+                        <option value="LightItalic">LightItalic</option>
+                        <option value="Medium">Medium</option>
+                        <option value="BlackItalic">BlackItalic</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Thin">Thin</option>
+                        <option value="ThinItalic">ThinItalic</option>
+                    </select>
+                </h1>
                 <div class="row size-10">
                     <div class="size">10</div>
                     <div class="glyphs">
@@ -162,5 +178,11 @@
                 </div>
             </div>
         </div>
+        <script>
+            var selector = document.querySelector('#type');
+            selector.addEventListener('change', function(){
+                document.getElementsByTagName("body")[0].style.fontFamily = selector.value;
+            })
+        </script>
     </body>
 </html>

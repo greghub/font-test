@@ -1,9 +1,88 @@
 @font-face {
-    font-family: 'Mardoto-Regular';
-    src: url('../fonts/Mardoto-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Mardoto-Regular.woff') format('woff'), url('../fonts/Mardoto-Regular.ttf')  format('truetype'), url('../fonts/Mardoto-Regular.svg#Mardoto-Regular') format('svg');
+    font-family: 'Black';
+    src: url('../fonts/woff/Mardoto-Black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'BlackItalic';
+    src: url('../fonts/woff/Mardoto-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/woff/Mardoto-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BoldItalic';
+    src: url('../fonts/woff/Mardoto-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italic';
+    src: url('../fonts/woff/Mardoto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/woff/Mardoto-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LightItalic';
+    src: url('../fonts/woff/Mardoto-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/woff/Mardoto-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MediumItalic';
+    src: url('../fonts/woff/Mardoto-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('../fonts/woff/Mardoto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Thin';
+    src: url('../fonts/woff/Mardoto-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ThinItalic';
+    src: url('../fonts/woff/Mardoto-ThinItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 body {
     margin: 0;
@@ -11,18 +90,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background-color: #292F44;
     color: #fff;
-}
-
-.col-glyphs {
-    font-family: "Mardoto-Regular", sans-serif;
-}
-
-.col-glyphs-regular {
-    font-family: "Mardoto-Regular", sans-serif;
-}
-
-.col-fontlab {
-    font-family: "Mardoto-Regular", sans-serif;
+    font-family: 'Black', sans-serif;
 }
 
 .container {
